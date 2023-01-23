@@ -1,0 +1,5 @@
+Q. what is the tag for creating a paragraph? 
+A. <p> is the tag
+
+Q. What is the tag that handles links?
+A. Anchor tag <a href=''>
