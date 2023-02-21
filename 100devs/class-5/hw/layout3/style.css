@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+header > div,
+footer > div {
+  height: 100px;
+  background-color: lightgray;
+  border: 1px solid darkgray;
+  clear: both;
+}
+
+section > div:nth-child(1) {
+  float: left;
+  width: 20%;
+  height: 200px;
+  background-color: lightgray;
+  border: 1px solid darkgray;
+}
+section > div:nth-child(2) {
+  float: left;
+  width: 40%;
+  height: 200px;
+  background-color: lightgray;
+  border: 1px solid darkgray;
+}
+section > div:nth-child(3) {
+  float: left;
+  width: 20%;
+  height: 200px;
+  background-color: lightgray;
+  border: 1px solid darkgray;
+}
+section > div:nth-child(4) {
+  float: left;
+  width: 20%;
+  height: 200px;
+  background-color: lightgray;
+  border: 1px solid darkgray;
+}

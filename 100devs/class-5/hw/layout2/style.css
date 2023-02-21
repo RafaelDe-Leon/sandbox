@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+header > div,
+footer > div {
+  height: 100px;
+  background-color: lightgray;
+  border: 1px solid darkgray;
+  clear: both;
+}
+
+#first > div {
+  width: 100%;
+  height: 200px;
+  background-color: lightgray;
+  border: 1px solid darkgray;
+}
+
+#second > div {
+  float: left;
+  width: 40%;
+  height: 200px;
+  background-color: lightgray;
+  border: 1px solid darkgray;
+}
+
+#second > div + div {
+  float: left;
+  width: 60%;
+  height: 200px;
+  background-color: lightgray;
+  border: 1px solid darkgray;
+}
