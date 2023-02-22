@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+header > div,
+footer > div {
+  height: 200px;
+  background-color: lightgray;
+  border: 1px solid darkgray;
+  clear: both;
+}
+
+#first > div {
+  float: left;
+  height: 100px;
+  width: 33.33%;
+  background-color: lightblue;
+  border: 1px solid darkblue;
+}
+
+#second > div {
+  float: left;
+  height: 100px;
+  width: 20%;
+  background-color: aquamarine;
+  border: 1px solid darkgoldenrod;
+}
