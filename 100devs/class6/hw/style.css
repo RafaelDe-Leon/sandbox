@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+header > div,
+footer > div {
+  height: 200px;
+  background: lightgray;
+  border: 1px solid gray;
+  clear: both;
+}
+
+section > div {
+  height: 400px;
+  width: 33.3333%;
+  float: left;
+  background: lightgray;
+  border: 1px solid gray;
+}
+
+@media (max-width: 1200px) {
+  header > div,
+  footer > div {
+    height: 200px;
+    background: blue;
+    border: 1px solid gray;
+    clear: both;
+  }
+}
+
+@media (max-width: 1000px) {
+  header > div,
+  footer > div {
+    height: 200px;
+    background: red;
+    border: 1px solid gray;
+    clear: both;
+  }
+}
+
+@media (max-width: 600px) {
+  header > div,
+  footer > div {
+    height: 200px;
+    background: yellow;
+    border: 1px solid gray;
+    clear: both;
+  }
+}
