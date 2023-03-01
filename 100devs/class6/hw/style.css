@@ -46,4 +46,8 @@ section > div {
     border: 1px solid gray;
     clear: both;
   }
+
+  section > div {
+    width: 100%;
+  }
 }
