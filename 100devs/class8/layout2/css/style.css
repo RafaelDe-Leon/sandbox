@@ -45,6 +45,11 @@ main > section {
   float: left;
 }
 
+main > section > h1,
+main > section > img {
+  margin-top: 200px;
+}
+
 main li {
   list-style: none;
   float: left;
