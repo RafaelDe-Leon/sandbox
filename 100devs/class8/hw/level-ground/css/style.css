@@ -21,20 +21,161 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-}
-
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-main {
+nav {
+  padding-top: 20px;
+  height: 200px;
+  background-color: rgb(89, 128, 137);
+}
+nav > * {
+  float: left;
+  width: 30%;
+  list-style: none;
 }
 
-header {
+nav > ul {
+  width: 900px;
+  margin: 0 auto;
+}
+
+nav > ul > li {
+  float: left;
+  width: 10%;
+}
+
+main {
+  background-color: rgb(89, 128, 137);
+  height: 700px;
+}
+
+main > div {
+  margin: 0 auto;
+  width: 30%;
+}
+
+main > div > h1 {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+main > div > p {
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+main > div > div {
+  margin: 30px auto;
+  text-align: center;
+  width: 100%;
+}
+
+#why {
+  margin: 150px auto;
+  width: 30%;
+  height: 500px;
+}
+
+#why > h2 {
+  font-size: 30px;
+  margin: 30px auto;
+  text-align: center;
+  width: 100%;
+}
+
+#why > p {
+  font-size: 20px;
+}
+
+#visit {
+  margin-top: 250px;
+  padding-top: 100px;
+  height: 500px;
+  background-color: rgb(198, 199, 203);
+}
+
+#visit > section {
+  display: block;
+  float: left;
+  width: 20%;
+  margin: 0 15%;
+}
+
+#volunteer {
+  margin: 150px auto;
+  width: 30%;
+  height: 500px;
+}
+
+#volunteer > h2 {
+  font-size: 30px;
+  margin: 30px auto;
+  text-align: center;
+  width: 100%;
+}
+
+#volunteer > p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#volunteer > div {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#volunteer > div > a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 20px;
 }
 
 footer {
+  height: 400px;
+  padding-top: 20px;
+  background-color: rgb(89, 128, 137);
+}
+
+footer > section {
+  height: 300px;
+  float: left;
+  width: 20%;
+  margin: 0 15%;
+}
+
+footer > section > section {
+  height: 100px;
+}
+footer > section > section > span {
+  display: block;
+  width: 100%;
+}
+
+footer > section > section > ul {
+  margin-left: -40px;
+}
+
+footer > section > section > ul > li {
+  list-style: none;
+  float: left;
+  width: 20%;
+}
+
+footer > div > p {
+  float: left;
+  width: 40%;
+  margin-left: 10%;
+}
+
+footer > div > img {
+  float: right;
+  width: 40%;
 }
 
 /******************************************
