@@ -5,16 +5,16 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
@@ -22,19 +22,51 @@
 /*******************************************/
 
 body {
-
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
+  padding-top: 10px;
+}
 
+nav > * {
+  float: left;
+  width: 11%;
+  margin: 0 5%;
+  list-style: none;
+}
+
+nav > ul {
+  width: 600px;
+}
+
+nav > ul > li {
+  float: left;
+  width: 10%;
+  margin: 0 10px;
+}
+body > section {
+  height: 700px;
+}
+
+body > section > section {
+  float: left;
+  width: 50%;
+}
+
+body > section > section + section > section {
+  float: left;
+  width: 50%;
+}
+
+body > section + section > section {
+  float: left;
+  width: 33%;
 }
 
 footer {
-
 }
 
 /******************************************
