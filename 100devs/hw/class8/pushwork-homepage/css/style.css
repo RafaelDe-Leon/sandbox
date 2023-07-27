@@ -186,6 +186,37 @@ body > section + section > div + div > div > div {
   text-align: center;
 }
 
+body > section + section + section > div {
+  float: left;
+  width: 50%;
+}
+
+body > section + section + section > div + div {
+  float: left;
+  width: 50%;
+}
+
+body > section + section + section > div > div {
+  position: relative;
+  height: 500px;
+  width: 600px;
+  background-color: lightgray;
+  margin: 0 auto;
+}
+
+body > section + section + section > div > div > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 150px;
+  transform: translate(-50%, -50%);
+}
+
+body > section + section + section > div + div > p {
+  color: red;
+  font-size: 14px;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
